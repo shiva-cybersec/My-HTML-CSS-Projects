@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  padding: 20px;
+  gap: 3px;
+}
+main section {
+  height: 100%;
+  border-radius: 10px;
+  flex-grow: 1;
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+}
+main section:hover {
+  flex-grow: 3.8;
+}
+main section:nth-child(1) {
+  background-image: url(https://i.pinimg.com/736x/63/94/8a/63948a936864cf4654fbeb76de81c6e7.jpg);
+}
+main section:nth-child(2) {
+  background-image: url(https://i.pinimg.com/736x/c6/34/98/c63498b7d4a35e002dc95bca819cba53.jpg);
+}
+main section:nth-child(3) {
+  background-image: url(https://i.pinimg.com/736x/1f/d1/90/1fd190e7170cfa6bae37c75e2a94e9a4.jpg);
+}
+main section:nth-child(4) {
+  background-image: url(https://i.pinimg.com/736x/81/8e/54/818e54863a4a06f61e8f3f5f171e8011.jpg);
+}
+main section:nth-child(5) {
+  background-image: url(https://i.pinimg.com/736x/10/66/ba/1066ba0ac1589b409f274499accfc133.jpg);
+}/*# sourceMappingURL=style.css.map */
